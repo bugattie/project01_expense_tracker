@@ -1,7 +1,9 @@
 # Expense Tracker App
 
-Project One according to the guidelines of [Bootcamp 2020](https://github.com/panacloud/bootcamp-2020).\\
-[Getting started](https://www.youtube.com/watch?v=q6GmIxnflfM) on this project through bootcamp.\\
+Project One according to the guidelines of [Bootcamp 2020](https://github.com/panacloud/bootcamp-2020).
+<br/>
+[Getting started](https://www.youtube.com/watch?v=q6GmIxnflfM) on this project through bootcamp.
+<br/>
 [Project actual Source](https://www.youtube.com/watch?v=XuFDcZABiDQ).
 
 ## Usage
