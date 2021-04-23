@@ -1,19 +1,24 @@
 import './App.css';
-import { ActionSummary } from './components/ActionSummary';
 
 import { Balance } from './components/Balance';
-import {Header} from './components/Header'
+import { Header } from './components/Header'
+import { ActionSummary } from './components/ActionSummary';
+import { TransactionHistory } from './components/TransactionHistory';
+import { AddTransaction } from './components/AddTransaction';
+import { GlobalProvider } from './context/GlobalState';
 
 
 function App() {
   return (
-    <div>
+    <GlobalProvider>
       <Header/>
       <div className="container">
         <Balance/>
         <ActionSummary/>
+        <TransactionHistory/>
+        <AddTransaction/>
       </div>
-    </div>
+    </GlobalProvider>
   );
 }
 
